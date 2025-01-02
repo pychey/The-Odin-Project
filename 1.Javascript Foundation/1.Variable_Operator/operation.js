@@ -54,20 +54,6 @@ let post_counter2 = 0;
 console.log(2 * ++pre_counter2); // 2*1=2
 console.log(2 * post_counter2++) // 2*0=0
 
-//unary plus 
-console.log(+"5"); //2
-console.log(+"-5"); //-2
-console.log(+true); //1
-console.log(+false); //0
-console.log(+""); //0
-//unary plus used to convert string into number, where string number will simple return number but special symbol will turn 0 or 1
-
-//unary plus is very often used, see example below
-let apple = "3";
-let orange = "2";
-console.log(apple + orange); //32
-console.log(+apple + +orange); //5
-
 //Operator Precedence//
 // when an expression has multiple operation, the excution order is defined by their precedence, it is the priority order of operators
 // example * has higher precedence than +
